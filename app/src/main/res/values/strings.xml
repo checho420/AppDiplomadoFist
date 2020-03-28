@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AppDiplomadoFist</string>
+    <string name="app_name">AppDiplomadoFirst</string>
+    <string name="user">Ingrese su usuario</string>
+    <string name="relat_vs_linear">Nombre</string>
 </resources>

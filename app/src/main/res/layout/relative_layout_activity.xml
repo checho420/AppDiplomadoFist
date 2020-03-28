@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etUser"
+        android:hint="@string/user"
+        android:layout_below="@+id/imgLogin"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_below="@+id/etUser"
+        android:id="@+id/etPass"
+        android:hint="Ingrese su contraseña"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:maxLength="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="293dp"
+        android:background="@color/colorPrimary"
+        android:text="Ver Resumen de los Chicos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>
